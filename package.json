@@ -4,22 +4,24 @@
   "description": "Example of cypress with cucumber",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run",
+    "test": "./node_modules/.bin/cypress run --reporter mochawesome",
     "cypress:open": "cypress open"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cypress-cucumber-example.git"
+    "url": "git+https://github.com/srikanthgona/cypress-cucumber-game.git"
   },
   "author": "xyz",
   "license": "UNLICENCED",
   "bugs": {
-    "url": "https://github.com/cypress-cucumber-example/issues"
+    "url": "https://github.com/srikanthgona/cypress-cucumber-game.git"
   },
-  "homepage": "https://github.com/cypress-cucumber-example#readme",
-  "dependencies": {
+  "homepage": "https://github.com/srikanthgona/cypress-cucumber-game",
+  "devDependencies": {
     "cypress": "^3.3.0",
-    "cypress-cucumber-preprocessor": "1.11.2"
+    "cypress-cucumber-preprocessor": "1.11.2",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.1.1"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
