@@ -1,0 +1,7 @@
+/.idea
+/cypress/logs
+/cypress/screenshots
+/cypress/videos
+/node_modules
+/jspm_packages
+/npm-debug.log
