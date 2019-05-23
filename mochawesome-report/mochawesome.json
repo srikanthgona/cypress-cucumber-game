@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2019-05-23T16:13:57.170Z",
-    "end": "2019-05-23T16:14:02.742Z",
-    "duration": 5572,
+    "start": "2019-05-23T19:25:12.151Z",
+    "end": "2019-05-23T19:25:15.811Z",
+    "duration": 3660,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -19,7 +19,7 @@
     "pendingPercentClass": "danger"
   },
   "suites": {
-    "uuid": "a064024a-b5a1-4691-bae4-af0d5915e502",
+    "uuid": "cea2dd82-c6ed-4e05-ab49-ceca83d88729",
     "title": "",
     "fullFile": "",
     "file": "",
@@ -28,17 +28,17 @@
     "tests": [],
     "suites": [
       {
-        "uuid": "5954c0bd-ac8e-4a2b-9e88-fa06312e7822",
-        "title": "The Game",
+        "uuid": "76541dc2-6ec5-4f75-b9f8-37442f8d2170",
+        "title": "Responsive View",
         "fullFile": "",
         "file": "",
         "beforeHooks": [],
         "afterHooks": [],
         "tests": [
           {
-            "title": "Opening a Game page",
-            "fullTitle": "The Game Opening a Game page",
-            "duration": 4102,
+            "title": "Opening a Game page in Responsive",
+            "fullTitle": "Responsive View Opening a Game page in Responsive",
+            "duration": 2706,
             "state": "passed",
             "speed": "slow",
             "pass": true,
@@ -47,19 +47,19 @@
             "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => stepTest.call(this, step));\n}\nscenario.steps.forEach(step => stepTest.call(this, step));",
             "err": {},
             "isRoot": false,
-            "uuid": "f21993cb-768b-40c0-9d99-fd88d1e79665",
+            "uuid": "c2b03007-1f0b-419d-acef-1c0f9d91c0c3",
             "isHook": false,
             "skipped": false
           }
         ],
         "suites": [],
         "passes": [
-          "f21993cb-768b-40c0-9d99-fd88d1e79665"
+          "c2b03007-1f0b-419d-acef-1c0f9d91c0c3"
         ],
         "failures": [],
         "pending": [],
         "skipped": [],
-        "duration": 4102,
+        "duration": 2706,
         "root": false,
         "rootEmpty": false,
         "_timeout": 2000

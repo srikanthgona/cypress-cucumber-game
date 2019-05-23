@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/cypress run --reporter mochawesome",
+    "cypress:chrome": "./node_modules/.bin/cypress run --browser chrome --reporter mochawesome",
     "cypress:open": "cypress open"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/srikanthgona/cypress-cucumber-game.git"
   },
-  "author": "xyz",
+  "author": "Srikanth",
   "license": "UNLICENCED",
   "bugs": {
     "url": "https://github.com/srikanthgona/cypress-cucumber-game.git"
