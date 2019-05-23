@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2019-05-23T19:25:12.151Z",
-    "end": "2019-05-23T19:25:15.811Z",
-    "duration": 3660,
+    "start": "2019-05-23T19:44:59.594Z",
+    "end": "2019-05-23T19:45:03.417Z",
+    "duration": 3823,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -19,7 +19,7 @@
     "pendingPercentClass": "danger"
   },
   "suites": {
-    "uuid": "cea2dd82-c6ed-4e05-ab49-ceca83d88729",
+    "uuid": "cd65734f-ec80-46ae-b73a-286211644ac6",
     "title": "",
     "fullFile": "",
     "file": "",
@@ -28,7 +28,7 @@
     "tests": [],
     "suites": [
       {
-        "uuid": "76541dc2-6ec5-4f75-b9f8-37442f8d2170",
+        "uuid": "ff51794e-33ac-4786-9279-30fe2b5d4bec",
         "title": "Responsive View",
         "fullFile": "",
         "file": "",
@@ -38,7 +38,7 @@
           {
             "title": "Opening a Game page in Responsive",
             "fullTitle": "Responsive View Opening a Game page in Responsive",
-            "duration": 2706,
+            "duration": 2763,
             "state": "passed",
             "speed": "slow",
             "pass": true,
@@ -47,19 +47,19 @@
             "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => stepTest.call(this, step));\n}\nscenario.steps.forEach(step => stepTest.call(this, step));",
             "err": {},
             "isRoot": false,
-            "uuid": "c2b03007-1f0b-419d-acef-1c0f9d91c0c3",
+            "uuid": "a8808689-f7f5-4d49-9e53-02db3e5028ab",
             "isHook": false,
             "skipped": false
           }
         ],
         "suites": [],
         "passes": [
-          "c2b03007-1f0b-419d-acef-1c0f9d91c0c3"
+          "a8808689-f7f5-4d49-9e53-02db3e5028ab"
         ],
         "failures": [],
         "pending": [],
         "skipped": [],
-        "duration": 2706,
+        "duration": 2763,
         "root": false,
         "rootEmpty": false,
         "_timeout": 2000

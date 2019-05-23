@@ -17,7 +17,8 @@ When('I hover over XBox',() => {
 
 When('I click on XBox One Consoles',() => { 
     cy
-    .contains('Xbox One Consoles')
+    // .contains('Xbox One Consoles')
+    .get('.dropdown.open>.dropdown-menu.xbox>:nth-child(2)>:nth-child(1)>a', { timeout: 1000 })    
     .click();
 });
 

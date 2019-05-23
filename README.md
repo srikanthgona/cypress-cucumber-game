@@ -36,3 +36,10 @@ open project path : cypress-cucumber-game⁩ -> ⁨mochawesome-report⁩ -> moch
    As on clicking the link 'Xbox One X child menu' the mobile view is dissapearing
 3. Refactoring of the feature files and step files can be done, to make them more generic by passing the arguments
 ```
+
+## Observations:
+```
+-> Clicking on a menus and links in desktop using the text will be slow compared to clicking on a link based on a property
+similar to '[data-franchiseiteration="Xbox One X"]'
+-> Best Practice: Use data-* attributes to provide context to your selectors and insulate them from CSS or JS changes.
+```
