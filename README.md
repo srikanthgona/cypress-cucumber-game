@@ -9,7 +9,7 @@ npm install
 
 ## To run tests in Electron (headless)
 ```
-npm test
+npm test - Venkat
 ```
 
 ## To run tests in chrome browser
